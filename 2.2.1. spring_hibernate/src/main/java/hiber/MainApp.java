@@ -47,7 +47,7 @@ public class MainApp {
          System.out.println();
       }
 
-      System.out.println(userService.getUserByCar("VAZ",2107).toString());
+      System.out.println("User with this car: " + userService.getUserByCar("VAZ",2107).toString());
 
       context.close();
    }
